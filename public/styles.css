@@ -1,0 +1,208 @@
+body {
+    background-color: #87b4df;
+    font-family: 'Press Start 2P', monospace;
+    image-rendering: pixelated;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* TITULOS CENTRADOS */
+h2 {
+    font-size: 22px;
+    background: #ffcc00;
+    color: #000;
+    padding: 12px;
+    border: 4px solid #000;
+    text-shadow: 2px 2px #fff;
+    text-align: center;     /* ⬅️ CENTRADO */
+    width: fit-content;     /* ⬅️ EVITA QUE SEA MUY ANCHO */
+    margin: 20px auto;      /* ⬅️ LO CENTRA EN PANTALLA */
+}
+
+form {
+    display: block;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    background: #fffbe6;
+    border: 4px solid #000;
+    box-shadow: 6px 6px #000;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 4px solid #000;
+    font-size: 12px;
+}
+
+table th {
+    background-color: #ff5733;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+button, input[type="submit"] {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 12px;
+    padding: 10px 14px;
+    background: #00cc66;
+    border: 4px solid #000;
+    cursor: pointer;
+    image-rendering: pixelated;
+    box-shadow: 4px 4px #000;
+}
+
+button:hover, input[type="submit"]:hover {
+    background: #00994d;
+}
+
+input, select {
+    font-family: 'Press Start 2P', monospace;
+    padding: 8px;
+    font-size: 12px;
+    border: 4px solid #000;
+    background: #fff;
+    box-shadow: 3px 3px #000;
+}
+
+.form-container {
+    background: #fffbe6;
+    border: 4px solid #000;
+    padding: 25px;
+    width: 470px;
+    box-shadow: 8px 8px #000;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 4px;
+}
+
+.form-container h2 {
+    font-size: 20px;
+    background: #ffcc00;
+    padding: 14px;
+    border: 4px solid #000;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.form-container label {
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.form-container input[type="text"],
+.form-container select {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    border: 4px solid #000;
+    background: #ffffff;
+    box-shadow: 4px 4px #000;
+    margin-bottom: 12px;
+}
+
+.form-container input[type="submit"] {
+    height: 55px;
+    font-size: 16px;
+    background: #00cc66;
+    border: 4px solid #000;
+    cursor: pointer;
+    box-shadow: 4px 4px #000;
+    margin-top: 10px;
+}
+
+.form-container input[type="submit"]:hover {
+    background: #00994d;
+}
+
+/* NAVBAR RETRO */
+.menu {
+    width: 100%;
+    background: #ffcc00;
+    border: 4px solid #000;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    box-shadow: 6px 6px #000;
+    margin-bottom: 25px;
+}
+
+.menu a {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 14px;
+    background: #fffbe6;
+    border: 4px solid #000;
+    box-shadow: 4px 4px #000;
+}
+
+.menu a:hover {
+    background: #ff5733;
+    color: #fff;
+}
+
+/* SECCIÓN DE INFORMACIÓN */
+.info-biblioteca {
+    background: #fffbe6;
+    border: 4px solid #000;
+    padding: 30px;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 8px 8px #000;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: left;
+}
+
+.info-biblioteca h3 {
+    font-size: 18px;
+    padding: 10px;
+    background: #ffcc00;
+    border: 4px solid #000;
+    width: fit-content;
+    box-shadow: 4px 4px #000;
+}
+
+.info-biblioteca p,
+.info-biblioteca li {
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.info-biblioteca ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.rubius {
+    background: #ffeb99;
+    padding: 15px;
+    border: 4px solid #000;
+    box-shadow: 4px 4px #000;
+    font-size: 12px;
+}
