@@ -9,7 +9,6 @@ body {
     align-items: center;
 }
 
-/* TITULOS CENTRADOS */
 h2 {
     font-size: 22px;
     background: #ffcc00;
@@ -17,9 +16,9 @@ h2 {
     padding: 12px;
     border: 4px solid #000;
     text-shadow: 2px 2px #fff;
-    text-align: center;     /* ⬅️ CENTRADO */
-    width: fit-content;     /* ⬅️ EVITA QUE SEA MUY ANCHO */
-    margin: 20px auto;      /* ⬅️ LO CENTRA EN PANTALLA */
+    text-align: center;
+    width: fit-content;
+    margin: 20px auto;
 }
 
 form {
@@ -133,7 +132,6 @@ input, select {
     background: #00994d;
 }
 
-/* NAVBAR RETRO */
 .menu {
     width: 100%;
     background: #ffcc00;
@@ -162,7 +160,6 @@ input, select {
     color: #fff;
 }
 
-/* SECCIÓN DE INFORMACIÓN */
 .info-biblioteca {
     background: #fffbe6;
     border: 4px solid #000;
