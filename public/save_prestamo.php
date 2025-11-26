@@ -11,7 +11,7 @@ $data = [
     "libro_id" => $_POST["libro_id"]
 ];
 
-$model->save($data); // ← ESTA ES LA CORRECTA
+$model->save($data);
 
 header("Location: prestamos.php");
 exit;
